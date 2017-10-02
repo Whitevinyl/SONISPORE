@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+    color: #fff;
+	width: 100%;
+
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+
+
+#app {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+canvas {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: default;
+    overflow: auto;
+}
+
+
+
+@media (max-width:1000px){
+
+}
